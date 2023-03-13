@@ -1,6 +1,6 @@
 # Aus_Banking_Liquidity
 A Python script to scrape intelligentinvestor.com.au for aussie banks deposit coverage. 
-This came about following Silicone Valley Banks collapse over the last few days. 
+This came about following Silicon Valley Banks collapse over the last few days. 
 I tried to see if there was any exposure here in Australia, however, found that my source of information was drastically 
 inconsistent between the different banks :)
 
