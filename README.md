@@ -1,6 +1,6 @@
 # Aus_Banking_Liquidity
 A Python script to scrape intelligentinvestor.com.au for aussie banks deposit coverage. 
-This came about following Silicone Valley Banks 48hr collapse in March 2023. 
+This came about following Silicone Valley Banks collapse over the last few days. 
 I tried to see if there was any exposure here in Australia, however, found that my source of information was drastically 
 inconsistent between the different banks :)
 
@@ -13,4 +13,9 @@ CBA, on the other hand, has a different formulation for their Deposits on Intell
 
 As such, the value of such analysis is limited until a more consistent source of truth is found.
 Additionally, there was only complete information for 8 ADI institutions, so more info is required.
+
+Formula used: (Short Term Money + Investment Securities)/Deposits
+ie. For every $1 of deposits, BankA has $2 of liquid assets
+
+This ratio could be improved with more sophisticated metrics, but given this was sort of a mini-project, I simply used the most available data.
 
